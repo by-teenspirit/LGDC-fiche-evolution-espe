@@ -1,0 +1,195 @@
+/* Code by teenspirit */
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.fiche_espe_evo {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  color: #272727;
+  font-size: 12px;
+  font-family: Roboto;
+  padding: 20px;
+  border-radius: 5px;
+  margin: auto;
+  border: 1px solid lightgray;
+}
+
+.fiche_espe_evo a {
+  color: black;
+}
+
+.head_img {
+  border-radius: 5px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.titre {
+  font-size: 48px;
+  font-family: "Great Vibes";
+  text-align: center;
+}
+
+.info_espe {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #fcf3f1;
+  font-size: 12px;
+  font-family: "Lobster Two";
+  font-weight: bold;
+  color: #da5c4b;
+  text-align: center;
+}
+
+.info2_espe {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.content_info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.titre_info {
+  font-family: "Lobster Two";
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container_info {
+  height: 100px;
+  overflow: auto;
+  padding: 15px;
+  background-color: #fcf3f1;
+  text-align: justify;
+  border-radius: 5px;
+}
+
+.extra_espe {
+  display: flex;
+  margin-top: 10px;
+  gap: 30px;
+  align-items: center;
+}
+
+.extra_espe img {
+  border-radius: 5px;
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.cita_espe {
+  font-family: "Lobster Two";
+  font-size: 16px;
+  color: #da5c4b;
+  font-weight: bold;
+  text-align: justify;
+  padding: 10px;
+}
+
+.cita_espe:before {
+  content: "“ ";
+  font-family: "Lobster Two";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cita_espe:after {
+  content: " ”";
+  font-family: "Lobster Two";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*Contenu onglet 1 */
+
+.lien_espe {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lien_espe img {
+  border-radius: 100px;
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+}
+
+.titre_desc {
+  font-family: Lobster Two;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: -10px;
+  margin-left: 10px;
+  color: #da5c4b;
+}
+
+.content_desc {
+  background-color: #fcf3f1;
+  text-align: justify;
+  padding: 15px;
+  height: 60px;
+  overflow: auto;
+  border-radius: 5px;
+  box-sizing: content-box;
+}
+/*Style du contenu des onglets*/
+titre_lien {
+  font-family: Roboto Condensed;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+}
+
+titre_rp {
+  font-family: Roboto Condensed;
+  font-weight: bold;
+}
+
+.tableonglets {
+  margin-top: 30px;
+}
+.tableonglets span.ongletcont {
+  display: none;
+}
+.tableonglets input {
+  display: none;
+}
+.tableonglets input:checked + span.ongletcont {
+  display: block;
+}
+.tableonglets span.ongletcont {
+  border-radius: 5px;
+  display: none;
+  margin: auto;
+}
+.tableonglets label.onglet {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  padding: 3px 0px;
+}
+
+.cont_onglet {
+  display: flex;
+  gap: 10px;
+}
+
+.onglet {
+  font-family: "Lobster Two";
+  font-size: 24px;
+  color: #da5c4b;
+  background-color: #ffe1db;
+  border-radius: 5px;
+}
+
+.onglet:checked {
+  color: red;
+}
