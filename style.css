@@ -1,6 +1,6 @@
 /* Code by teenspirit */
 
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 .fiche_espe_evo {
   background-color: rgb(255, 255, 255);
@@ -71,7 +71,6 @@
 
 .extra_espe {
   display: flex;
-  margin-top: 10px;
   gap: 30px;
   align-items: center;
 }
@@ -108,10 +107,17 @@
 
 /*Contenu onglet 1 */
 
+.container_liens{
+  display: flex; 
+  flex-direction: column;
+  gap: 30px;
+  margin: 30px 0px;
+}
 .lien_espe {
   display: flex;
   align-items: center;
   gap: 10px;
+  position: relative;
 }
 
 .lien_espe img {
@@ -125,9 +131,10 @@
   font-family: Lobster Two;
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: -10px;
   margin-left: 10px;
   color: #da5c4b;
+  position: absolute;
+  top: -15px;
 }
 
 .content_desc {
@@ -139,6 +146,48 @@
   border-radius: 5px;
   box-sizing: content-box;
 }
+
+/* Contenu onglet 2 */
+
+.desc_espe{
+  position: relative;
+}
+
+.onglet_rp{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin: 30px 0px;
+}
+
+.content_2{
+  height: auto;
+  overflow: none;
+}
+
+/* Contenu onglet 3 */
+
+.separation_espe{
+  font-size: 24px;
+  color: #da5c4b;
+  text-align: center;
+}
+
+
+.separation_espe:before, .separation_espe:after {
+  content:'';
+  width:30%;
+  border-bottom: 1px #da5c4b solid;
+  display:inline-block;
+  vertical-align:middle;
+}
+.separation_espe:before {
+  margin-left:-100%;
+margin-right:20px}
+.separation_espe:after {
+  margin-right:-100%;
+margin-left:20px;}
+
 /*Style du contenu des onglets*/
 titre_lien {
   font-family: Roboto Condensed;
