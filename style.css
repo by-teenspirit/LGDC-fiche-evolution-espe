@@ -27,6 +27,7 @@
 .titre {
   font-size: 48px;
   text-align: center;
+  padding: 10px 0px;
 }
 
 .info_espe {
@@ -123,7 +124,7 @@
   font-weight: bold;
   margin-left: 10px;
   position: absolute;
-  top: -15px;
+  top: -10px;
 }
 
 .content_desc {
@@ -221,6 +222,7 @@ titre_rp {
 .onglet {
   font-size: 24px;
   border-radius: 5px;
+  padding: 10px 0px;
 }
 
 .onglet:checked {
