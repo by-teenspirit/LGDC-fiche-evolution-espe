@@ -27,7 +27,7 @@
 .titre {
   font-size: 48px;
   text-align: center;
-  padding: 10px 0px;
+  padding: 30px 0px 10px 0px;
 }
 
 .info_espe {
@@ -99,8 +99,8 @@
 
 /*Contenu onglet 1 */
 
-.container_liens{
-  display: flex; 
+.container_liens {
+  display: flex;
   flex-direction: column;
   gap: 30px;
   margin: 30px 0px;
@@ -138,43 +138,45 @@
 
 /* Contenu onglet 2 */
 
-.desc_espe{
+.desc_espe {
   position: relative;
 }
 
-.onglet_rp{
+.onglet_rp {
   display: flex;
   gap: 10px;
   flex-direction: column;
   margin: 30px 0px;
 }
 
-.content_2{
+.content_2 {
   height: auto;
   overflow: none;
 }
 
 /* Contenu onglet 3 */
 
-.separation_espe{
+.separation_espe {
   font-size: 24px;
   text-align: center;
 }
 
-
-.separation_espe:before, .separation_espe:after {
-  content:'';
-  width:30%;
+.separation_espe:before,
+.separation_espe:after {
+  content: "";
+  width: 30%;
   border-bottom: 1px #272727 solid;
-  display:inline-block;
-  vertical-align:middle;
+  display: inline-block;
+  vertical-align: middle;
 }
 .separation_espe:before {
-  margin-left:-100%;
-margin-right:20px}
+  margin-left: -100%;
+  margin-right: 20px;
+}
 .separation_espe:after {
-  margin-right:-100%;
-margin-left:20px;}
+  margin-right: -100%;
+  margin-left: 20px;
+}
 
 /*Style du contenu des onglets*/
 titre_lien {
@@ -211,7 +213,7 @@ titre_rp {
   width: 100%;
   text-align: center;
   cursor: pointer;
-  padding: 3px 0px;
+  padding: 10px 0px;
 }
 
 .cont_onglet {
