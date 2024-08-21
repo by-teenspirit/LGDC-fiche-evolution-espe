@@ -26,18 +26,14 @@
 }
 .titre {
   font-size: 48px;
-  font-family: "Great Vibes";
   text-align: center;
 }
 
 .info_espe {
+  font-weight: bold;
   border-radius: 5px;
   padding: 5px;
-  background-color: #fcf3f1;
   font-size: 12px;
-  font-family: "Lobster Two";
-  font-weight: bold;
-  color: #da5c4b;
   text-align: center;
 }
 
@@ -54,17 +50,14 @@
 }
 
 .titre_info {
-  font-family: "Lobster Two";
   font-size: 24px;
   text-align: center;
-  font-weight: bold;
 }
 
 .container_info {
   height: 100px;
   overflow: auto;
   padding: 15px;
-  background-color: #fcf3f1;
   text-align: justify;
   border-radius: 5px;
 }
@@ -83,9 +76,7 @@
 }
 
 .cita_espe {
-  font-family: "Lobster Two";
   font-size: 16px;
-  color: #da5c4b;
   font-weight: bold;
   text-align: justify;
   padding: 10px;
@@ -128,17 +119,14 @@
 }
 
 .titre_desc {
-  font-family: Lobster Two;
   font-size: 20px;
   font-weight: bold;
   margin-left: 10px;
-  color: #da5c4b;
   position: absolute;
   top: -15px;
 }
 
 .content_desc {
-  background-color: #fcf3f1;
   text-align: justify;
   padding: 15px;
   height: 60px;
@@ -169,7 +157,6 @@
 
 .separation_espe{
   font-size: 24px;
-  color: #da5c4b;
   text-align: center;
 }
 
@@ -177,7 +164,7 @@
 .separation_espe:before, .separation_espe:after {
   content:'';
   width:30%;
-  border-bottom: 1px #da5c4b solid;
+  border-bottom: 1px #272727 solid;
   display:inline-block;
   vertical-align:middle;
 }
@@ -232,10 +219,7 @@ titre_rp {
 }
 
 .onglet {
-  font-family: "Lobster Two";
   font-size: 24px;
-  color: #da5c4b;
-  background-color: #ffe1db;
   border-radius: 5px;
 }
 
